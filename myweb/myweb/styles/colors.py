@@ -14,3 +14,4 @@ class TextColor(Enum):
     WHITE="#ffffff"
     BLACK="#000000"
     GRAY="#808080"
+    LIGHTSECONDARY_TEXT="#cb9cf2ff"

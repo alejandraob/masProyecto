@@ -4,8 +4,8 @@ import reflex as rx
 
 from rxconfig import config
 import myweb.styles.styles as styles
-import myweb.styles.colors as colors
-import myweb.styles.fonts as fonts
+from myweb.styles.colors import Color, TextColor
+from myweb.styles.fonts import Font, FontWeight
 import myweb.pages.index as index
 
 class State(rx.State):
@@ -17,6 +17,7 @@ class State(rx.State):
 
 app = rx.App(
     stylesheets=styles.STYLESHEETS,
+    style=styles.BASE_STYLE,
 )
 
 
